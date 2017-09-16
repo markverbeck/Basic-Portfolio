@@ -1,0 +1,84 @@
+/* Portfolio */
+#wrapper1,
+#wrapper2,
+#wrapper3,
+#wrapper4,
+#wrapper5{
+	height: 200px;
+	width: 150px;
+}
+.about-me,
+.contact-form,
+.portfolio-links{
+	width:650px;
+}
+.connect-with-me{
+	width:270px;
+}
+
+body{
+	width:1336px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("wormz.png");
+	background-color: #cccccc;
+	
+}
+/* Main Header*/
+#wrapper{
+	
+	margin-top:0 auto;
+	background-color: #fff;
+	height: 91px;
+	border-bottom: solid lightgrey;
+
+}
+header{
+	float: left;
+	background-color: #00aea6;
+	margin-top: 0;
+	font-variant: small-caps;
+	font-family: 'Georgia', 'Times, Times New Roman', serif;
+	margin-left: 121px;
+	height: 91px;
+}
+header h1{
+	padding-left: 36px;
+	padding-right: 40px;
+	color:#fff;
+	padding-top: 6px;
+}
+.main_menue{
+	text-align: right;
+	padding: 5px 0 5px 0;
+	line-height: 32px;
+	padding-top: 12px;
+	padding-right: 200px;
+	
+}
+.main_menue li{
+	display: inline;
+	padding: 0 5px 0 5px;
+	font-size: 18px;
+
+}
+.main_menue a{
+	text-decoration: none;
+	color: grey;
+	border-right: solid 1px lightgrey;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
