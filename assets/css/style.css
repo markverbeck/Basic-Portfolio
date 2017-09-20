@@ -52,15 +52,17 @@ header{
 }
 header h1{
 	clear: both;
-	overflow: auto;
-	padding-left: 36px;
-	padding-right: 40px;
-	color:#fff;
-	padding-top: 6px;
+    overflow: auto;
+    padding-left: 36px;
+    padding-right: 40px;
+    color: #fff;
+    padding-top: 24px;
+    font-size: 2em;
+    font-weight: bold;
 
 }
 .main_menue{
-	text-align: right;
+	text-align: center;
 	padding: 5px 0 5px 0;
 	line-height: 32px;
 	padding-top: 12px;
@@ -71,9 +73,9 @@ header h1{
 }
 .main_menue li{
 	display: inline;
-	padding: 0 5px 0 5px;
-	font-size: 18px;
-
+    padding: 0 5px 0 5px;
+    font-size: 18px;
+    padding-right: 13px;
 
 }
 .main_menue a{
@@ -83,15 +85,30 @@ header h1{
 	padding-right: 10px;
 }
 
+ul{
+	list-style: none;
+    line-height: 3.6;
+    margin-left: 54%;
+    width: 77%;
+}
+
+#contact{
+	border-right: none;
+	
+
+}
+
 /* About me */
 
  h2{
-	color:#00aea6;
-	font-family:'Georgia', Times, 'Times New Roman', serif;
-	font-size: 30px;
-	border-bottom: solid 3px lightgrey;
-	padding-bottom: 30px;
-	margin-top:0;
+	color: #00aea6;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border-bottom: solid 3px lightgrey;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 24.9px;
+    font-weight: bold;
 }
 #profile-pic{
 	float:left;
@@ -166,7 +183,7 @@ p{
     padding: 13px;
     position: absolute;
     /* right: 61px; */
-    top: 186px;
+    top: 302px;
     left: 65px;
 	
 	
@@ -187,8 +204,8 @@ p{
     text-align: center;
     padding: 13px;
     position: absolute;
-    right: 61px;
-    top: 186px;
+    right: 62px;
+    top: 302px;
 
 }
 
@@ -211,7 +228,7 @@ p{
     padding: 13px;
     position: absolute;
     /* right: 61px; */
-    top: 482px;
+    top: 593px;
     left: 65px;
 
 }
@@ -230,9 +247,8 @@ p{
     text-align: center;
     padding: 13px;
     position: absolute;
-    right: 61px;
-    top: 482px;
-
+    right: 62px;
+    top: 593px;
 }
 
 #wolf-pic{
@@ -252,8 +268,9 @@ p{
     padding: 13px;
     position: absolute;
     /* right: 61px; */
-    top: 770px;
+    top: 882px;
     left: 65px;
+
 
 }
 
@@ -268,6 +285,8 @@ form{
 input{
 	width: 100%;
 	margin-bottom: 20px;
+	color: grey;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 
 
